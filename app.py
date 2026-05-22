@@ -5,7 +5,7 @@ from openai import OpenAI
 # ---------------- GROQ API ----------------
 
 client = OpenAI(
-    api_key=st.secrets["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"],
+    api_key="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",
     base_url="https://api.groq.com/openai/v1"
 )
 
